@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "jsne-talk-serverless",
+  "alias": "jsne-talk-serverless",
+  "builds": [
+    {
+      "src": "deck/package.json",
+      "use": "@now/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/main.js",
+      "dest": "/deck/main.js"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/deck/images/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/deck/index.html"
+    }
+  ]
+}
