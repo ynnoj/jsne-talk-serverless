@@ -11,7 +11,7 @@ export { default as theme } from './theme'
 <Image src="images/moltin.png" />
 
 <Notes>
-  I'm Jonathan, an developer working at Moltin. Moltin is a headless commerce
+  I'm Jonathan, a developer working at Moltin. Moltin is a headless commerce
   platform based in Boston and Newcastle. I lead the dashboard team as well as
   contribute to API tooling and open source, such as our SDKs.
 </Notes>
@@ -90,7 +90,7 @@ export default layout
 
 # 3. Scaling
 
-Let your infrastrcuture scale infinitely with your application
+Let your infrastructure scale infinitely with your application
 
 <Notes>
   Since serverless functions are stateless and invoked by an event such as a
@@ -123,10 +123,10 @@ IoT, service integrations and more
 <Notes>
   Serverless computing has a long history, and has become an increasing popular
   framework within the past 3-4 years. IoT devices, 3rd party integrations are
-  just a couple examples of how serverless architcture is utilised by developers
-  across the web. At Moltin, our billing and caching services are backed by
-  serverless technologies. Customers utilise our events API to power serverless
-  integrations with 3rd party services such as Postmark and Twilio.
+  just a couple examples of how serverless architecture is utilised by
+  developers across the web. At Moltin, our billing and caching services are
+  backed by serverless technologies. Customers utilise our events API to power
+  serverless integrations with 3rd party services such as Postmark and Twilio.
 </Notes>
 
 ---
@@ -164,7 +164,7 @@ export default layout
 Clearly defined responsibilities, modules and logic
 
 <Notes>
-  Since each function is isolated, it handles it's own responsibilities. We may
+  Since each function is isolated, it handles its own responsibilities. We may
   have one route that includes a Node dependency, whilst the other routes do
   not. This separation allows each function to require its own modules and
   logic, which in turn, reduces error surface and helps when debugging issues.
@@ -206,11 +206,11 @@ export default layout
 
 # 4. Language agnostic
 
-Use the best laguage for the job
+Use the best language for the job
 
 <Notes>
-  There is no preconceived laungage in a serverless application, allowing you to
-  use the best tooling for the job at hand.
+  There is no preconceived language in a serverless application, allowing you to
+  use the best tools for the job at hand.
 </Notes>
 
 ---
@@ -282,7 +282,7 @@ export default layout
   This is an example of an asynchronous Node.js function. We're exposing this
   function via route which can be called externally. As you can see we're
   importing a local dependency (MoltinClient) which is defined and exported
-  inside the repository. As each function has it's own package file, this
+  inside the repository. As each function has its own package file, this
   dependency can be required on a per function basis and therefore reducing
   bundle size of the compiled lambda.
 </Notes>
