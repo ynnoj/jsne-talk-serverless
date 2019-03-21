@@ -6,4 +6,4 @@
 
 Building a serverless API with [Zeit Now](https://zeit.co/now).
 
-🎞 [**Deck**](https://jsne-talk-serverless.now.sh)
+🎞 [**Deck**](https://jsne-talk-serverless.now.sh) • 🎥 [**Video**](https://youtu.be/YUcC_Q_5fMQ)
