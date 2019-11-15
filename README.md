@@ -1,6 +1,6 @@
 # A serverless approach to API design
 
-> 📣 Serverless talk at JSNE from March 2019
+> 📣 Serverless talk at JavaScript NE from March 2019
 
 ## Description
 
